@@ -1,0 +1,60 @@
+#intro{
+    .text-intro{
+         margin-top: 10%;
+         margin-left: 40%;
+        border: 1px solid grey;
+        width: 300px;
+        height: 300px;
+    }
+
+    .login{
+        h1{
+            text-align: center;
+           color: brown; 
+        }
+
+        input{
+            margin-left: 40px;
+            margin-top: 30px;
+            height: 20px;
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: gray
+        }
+    }
+
+    .button{
+        position: relative;
+        display: flex;
+
+        .login-button{
+            button{
+                border-radius: 5px;
+                border: none;
+                background-color: rgba(255, 166, 0, 0.692);
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                width: 100px;
+                margin-top: 40px;
+                margin-left: 20px
+            }
+        }
+
+        .logout-button{
+            button{
+                border-radius: 5px;
+                border: none;
+                background-color: rgba(255, 0, 0, 0.692);
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                width: 100px;
+                margin-top: 40px;
+                margin-left: 20px
+            }
+
+        }
+    }
+
+    
+
+}
